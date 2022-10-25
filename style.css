@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2ebe3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 1em;
+}
+.mobile-img{
+    width: 100%;
+    margin-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.desktop-img{
+    display: none;
+}
+.container{
+    /* border: 2px solid red; */
+    max-width: 375px;
+    margin: 15px auto;
+    background-color: #ffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    margin: 10px 30px;
+}
+.picture-title {
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #6c7289;
+}
+.perfume-name{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1c232b;
+    margin-top: -2px;
+}
+.more-text{
+    color: #6c7289;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+.pricing{
+    width: 53%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+.new-price{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #3c8067;
+}
+.prev-price{
+    font-family: 'Montserrat', sans-serif;
+    color: #6c7289;
+    text-decoration: line-through;
+    font-size: 1em;
+    margin-left: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 7px;
+    border: none;
+    background-color: #3c8067;
+    color: #ffff;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn:hover,
+.btn:focus{
+    background-color: #1e4939;
+}
+.btn img{
+    width: 10%;
+    margin: 0 10px;
+}
+.btn span{
+    font-weight: 700;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #1c232b;
+}
+.attribution a {
+  color: #6c7289;
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: #3c8067;
+  text-decoration: underline;
+}
+@media (min-width: 675px) {
+    body {
+        width: 1440px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        flex-direction: row;
+        max-width: 650px;
+    }
+    .mobile-img{
+        display: none;
+    }
+    .desktop-img{ 
+        display: flex;
+        height: 480px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .more-text{
+        margin-top: 30px;
+    }
+    .perfume-name{
+        margin-top: 20px;
+    }
+    .picture-title{
+        margin-top: 20px;
+    }
+    .pricing {
+        margin-bottom: 30px;
+    }
+    .btn{
+        width: 90%;
+        margin-bottom: -10px;
+    }
+    
+    .content{
+        width: 46%;
+    }
+}
