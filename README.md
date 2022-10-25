@@ -26,9 +26,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ![](./images/project%20screenshot.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [](https://chibuzorisaac.github.io/Product-preview-card-component-challenge/)
 
 ## My process
 
